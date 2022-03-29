@@ -1,0 +1,23 @@
+{
+  "name": "paginapessoal",
+  "version": "1.0.0",
+  "description": "Página pessoal by Patrícia nunes ",
+  "main": "index.html",
+  "scripts": {
+    "start":"lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patricianunes4311/paginapessoal.git"
+  },
+  "author": "Patrícia Nunes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patricianunes4311/paginapessoal/issues"
+  },
+  "homepage": "https://github.com/patricianunes4311/paginapessoal#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
