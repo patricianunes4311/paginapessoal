@@ -1,3 +1,78 @@
+*{
+    font-style: italic;
+}
 #logotipo{
-    width: 70px;
+
+    width: 80px;
+}
+body{
+  background-color: rgb(255, 231, 244);
+}
+  .sidebar{
+      background-color:rgb(255, 198, 255);
+  }
+  #inscrição{
+    border:1px solid black;
+  }
+
+  #title{
+    font-size: 25px;
+    margin-top: 8px;
+    font-style:italic;
+
+  }
+
+  #frase{
+      width:200px;
+     
+  }
+  #post2{
+      width:200px;
+      
+  }
+  #post3{
+      width:200px ;
+     
+  }
+  #post4{
+      width: 200px;
+  }
+  .header{
+      background-color:#F0ACF1;
+  }
+  
+
+#tons{
+    width:300px;
+}
+
+#titleBio{
+    font-size:30px;
+     
+}
+#titletutorial{
+    font-size:20px;
+}
+#titletutorial2{
+    font-size:20px;
+}
+#dicas{
+    font-size:20px;
+}
+#titleTutorial3{
+    font-size:20px;
+
+}
+#titletutorial4{
+    font-size:20px;
+    
+}
+#titletutorial5{
+    font-size:20px;    
+}
+#titletutorial6{
+    font-size:20px;
+}
+#titletutorial7{
+    font-size:20px;    
 }
