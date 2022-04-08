@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!--Cabeçalho-->
     <title>Blog by Patrícia Nunes </title>
     <div class="cotainer-fluid">
         <div class="row header">
@@ -20,6 +21,17 @@
             <div class="col-3">
                 <h1 id="title">By Patrícia nunes </h1>
             </div>
+            <div class="col-5">
+
+            </div>
+            <nav class="navbar navbar-light bg-light col-3">
+                <div class="container-fluid">
+                    <form class="d-flex">
+                        <input class="form-control me-1" type="search" placeholder="O que procura?" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Pesquisa</button>
+                    </form>
+                </div>
+            </nav>
         </div>
 
         <div class="row">
@@ -29,9 +41,21 @@
                         <li><a href="#">Tutoriais </a></li>
                         <li><a href="#">Dicas </a></li>
                     </ul>
-                </nav>
+                </nav>               
                 <div id="inscrição">
                     <p>Se inscreva em nosso site, para ficar por dentro de nossos tutoriais. </p>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Inscrição</h5>
+                            <form>
+                                <input type="text" class="form-control" id="name" placeholder="Digite seu nome">
+                                <input type="email" class="form-control" id="email" placeholder="Digite seu email">                        
+                                 <input type="password" class="form-control" id="password" placeholder="Digite uma senha">
+                                
+                            </form>
+                            <a href="#" class="btn btn-primary mt-3 ">Enviar inscrição</a>
+                        </div>
+                    </div>
                 </div>
 
 
@@ -68,7 +92,8 @@
 
                         </div>
                         <div class="tutorial1 mt-3">
-                            <h6 id="titletutorial" style="color: rgb(255, 32, 181);">1º Tutorial componentes básicos </h6>
+                            <h6 id="titletutorial" style="color: rgb(255, 32, 181);">1º Tutorial componentes básicos
+                            </h6>
                             <p>Vamos começar nosso primeiro tutorial</p>
                             <p>Nosso primeiro passo será itens de maquiagem para iniciantes</p>
                             <ol>
@@ -85,7 +110,7 @@
                                 <li>sombras</li>
                                 <li>Delineador</li>
                             </ol>
-                            <h6  id="dicas" style="color:rgb(255, 32, 181);">Dicas</h6>
+                            <h6 id="dicas" style="color:rgb(255, 32, 181);">Dicas</h6>
                             <p>Para saber qual é a sua tonalidade de base, irei inserir uma imagem com os tons
                                 adequados.</p>
                             <img id="tons" src="/images/tons.jpg">
@@ -93,7 +118,8 @@
                             <p> já a tonalidade do corretivo tem que ter um tom mais claro do seu tom de pele</p>
                         </div>
                         <div class="tutorial2 mt-3">
-                            <h6 id="titletutorial2" style="color: rgb(255, 32, 181);">2º Tutorial Pinceis para aplicação  </h6>
+                            <h6 id="titletutorial2" style="color: rgb(255, 32, 181);">2º Tutorial Pinceis para aplicação
+                            </h6>
                             <p>Nesta segunda etapa iremos falar sobre os pinceis adquadas para sua make</p>
                             <ol>
                                 <li><b>Pincel para base</b> </li>
@@ -104,38 +130,71 @@
                                 <li><b>Pincel para contorno</b></li>
                                 <p>O pincel adequado para a aplicação do contorno é Kabuki Chanfrado.</p>
                                 <li><b>Pincel para sombra </b></li>
-                                <p>O pincel adequado para aplicação da sombra é pincel angular para marcar o côncavo e fazer um belo esfumado utilize um pincel de esfumar.</p>
+                                <p>O pincel adequado para aplicação da sombra é pincel angular para marcar o côncavo e
+                                    fazer um belo esfumado utilize um pincel de esfumar.</p>
                                 <li><b>Pincel blush</b></li>
-                                <p>Para aplicação do blush é necessário um Pincel kabuki com maior quantidade de cerdas.</p>
+                                <p>Para aplicação do blush é necessário um Pincel kabuki com maior quantidade de cerdas.
+                                </p>
                                 <li><b>Pincel de iluminador</b></li>
                                 <p> O pincel para aplicação do iluminador é o Setting Brush.</p>
 
                             </ol>
                         </div>
                         <div class="tutorial3 mt-3">
-                            <h6 id="titleTutorial3" style="color:rgb(255, 32, 181);">3º Tutorial preparação de pele </h6>
-                            <p>A preparação de pele é muito importante para manter uma boa durabilidade da máquigem, portanto devemos se atentar a esse detalhe.Para isso devemos 
-                                lavar nosso rosto com água gelada e um sabone apropriado para o rosto, logo após isso hidratar a pele para evitar que nossa pele absorva diretamente toda a base,em seguida passe o prime. 
+                            <h6 id="titleTutorial3" style="color:rgb(255, 32, 181);">3º Tutorial preparação de pele
+                            </h6>
+                            <p>A preparação de pele é muito importante para manter uma boa durabilidade da máquigem,
+                                portanto devemos se atentar a esse detalhe.Para isso devemos
+                                lavar nosso rosto com água gelada e um sabone apropriado para o rosto, logo após isso
+                                hidratar a pele para evitar que nossa pele absorva diretamente toda a base,em seguida
+                                passe o prime.
                             </p>
                         </div>
                         <div class="tutorial4 mt-3">
                             <h6 id="titletutorial4" style="color:rgb(255, 32, 181);">4º Tutorial aplicação da base </h6>
-                            <p>A aplicação da base é extremamente importante para que possamos deixar nossa pele com aparência aveludada,Portanto comece aplicando na área da bochecha assim espalhando por toda essa região 
-                                levando para testa, em seguida venha com a esponjinha dando batidinha leves para deixar a pele uniforme.
+                            <p>A aplicação da base é extremamente importante para que possamos deixar nossa pele com
+                                aparência aveludada,Portanto comece aplicando na área da bochecha assim espalhando por
+                                toda essa região
+                                levando para testa, em seguida venha com a esponjinha dando batidinha leves para deixar
+                                a pele uniforme.
                             </p>
                         </div>
                         <div class="tutorial5 mt-3">
-                            <h6 id="titletutorial5" style="color:rgb(255, 32, 181);">5º Tutorial aplicação corretivo </h6>
-                            <p>O corretivo deve ser aplicado Nas pálpebras e cantinhos dos olhos,em cima e embaixo das sobrancelhas, no centro da testa entre as sobrancelhas,
-                                Nos cantos em volta dos lábios,em volta das narinas e na linha central do nariz, no meio do queixo.</p>
+                            <h6 id="titletutorial5" style="color:rgb(255, 32, 181);">5º Tutorial aplicação corretivo
+                            </h6>
+                            <p>O corretivo deve ser aplicado Nas pálpebras e cantinhos dos olhos,em cima e embaixo das
+                                sobrancelhas, no centro da testa entre as sobrancelhas,
+                                Nos cantos em volta dos lábios,em volta das narinas e na linha central do nariz, no meio
+                                do queixo.</p>
                         </div>
                         <div class="tutorial6 mt-3">
-                            <h6 id="titletutorial6" style="color:rgb(255, 32, 181);";>6º Tutorial aplicação contorno </h6>
-                            <p>O contorno deve ser aplicado na altura da ponta da orelha terminando dois dedos antes do lábio superior.</p>
+                            <h6 id="titletutorial6" style="color:rgb(255, 32, 181);">6º Tutorial aplicação contorno</h6>
+                            <p>O contorno deve ser aplicado na altura da ponta da orelha terminando dois dedos antes do
+                                lábio superior.</p>
                         </div>
                         <div class="tutorial7 mt-3">
-                            <h6 id="titletutorial7" style="color:rgb(255, 32, 181);">7º Tutorial aplicação blush  </h6>
-                            <p>O blush deve ser aplicado na maça do rosto, em seguida ir esfumando até se misturar com o contorno na ponta da orelha.</p>
+                            <h6 id="titletutorial7" style="color:rgb(255, 32, 181);">7º Tutorial aplicação blush </h6>
+                            <p>O blush deve ser aplicado na maça do rosto, em seguida ir esfumando até se misturar com o
+                                contorno na ponta da orelha.</p>
+                        </div>
+                        <div class="turorial8 mt-3">
+                            <h6 id="titletutorial8" style="color:rgb(255, 32, 181);"> 8º Tutorial aplicação iluminador
+                            </h6>
+                            <p>O iluminador deve ser aplicado na região da maça do rosto esfumando até o canto externo
+                                dos olhos.</p>
+                        </div>
+                        <div class="tutorial9 mt-3">
+                            <h6 id="titletutorial9" style="color:rgb(255, 32, 181);">9º Tutorial aplicação sombra </h6>
+                            <p>A aplicação de sombra para iniciantes deve ser feita da seguinte maneira, faça 3 pontos
+                                na na região da linha final da palpebra móvel, logo ligue os pontos e após isso sobreie
+                                com a mão leve. </p>
+                        </div>
+                        <div class="tutorial10 mt-3">
+                            <h6 id="titletutorial10" style="color:rgb(255, 32, 181);">10º Tutorial delineador </h6>
+                            <p>A aplicação do delineador exige um pouco de prática para que ele fique perfeito, portanto
+                                comece fazendo uma linha rente aos cílios, em seguida puxe um traço na altura da ponta
+                                da sobrancelha, logo puxe um traço na direção inversa juntando ao traço que está rente
+                                ao cílios e preencha o triangulo. </p>
                         </div>
                     </div>
                 </div>

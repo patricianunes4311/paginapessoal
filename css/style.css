@@ -13,6 +13,7 @@ body{
   }
   #inscrição{
     border:1px solid black;
+    padding:10px;
   }
 
   #title{
@@ -75,4 +76,22 @@ body{
 }
 #titletutorial7{
     font-size:20px;    
+}
+#titletutorial8{
+    font-size: 20px;
+}
+#titletutorial9{
+    font-size:20px;
+}
+#titletutorial10{
+    font-size:20px;
+}
+.btn{
+    background-color:#F0ACF1;;
+}
+.card-body{
+    background-color:rgb(255, 231, 244);
+}
+#logotipo{
+    opacity:30;
 }
