@@ -25,18 +25,22 @@ body{
 
   #frase{
       width:200px;
+      padding:3px;
      
   }
   #post2{
       width:200px;
+      padding:3px;
       
   }
   #post3{
       width:200px ;
+      padding:3px;
      
   }
   #post4{
       width: 200px;
+      padding:3px;
   }
   .header{
       background-color:#F0ACF1;
@@ -94,4 +98,21 @@ body{
 }
 #logotipo{
     opacity:30;
+}
+#post5{
+    width:200px;
+    padding:3px;
+   
+}
+#post6{
+    width:200px;
+    padding:3px;
+}
+#post7{
+    width:200px;
+    padding:3px;
+}
+#post8{
+    width:200px;
+    padding:3px;
 }
