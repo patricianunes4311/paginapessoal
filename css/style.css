@@ -116,3 +116,15 @@ body{
     width:200px;
     padding:3px;
 }
+
+#name-error{
+    display:none;
+}
+
+#email-error{
+    display:none;
+}
+
+#password-error{
+    display:none;
+}

@@ -48,10 +48,12 @@
                         <div class="card-body">
                             <h5 class="card-title">Inscrição</h5>
                             <form>
-                                <input type="text" class="form-control" id="name" placeholder="Digite seu nome">                                
-                                <input type="email" class="form-control" id="email" placeholder="Digite seu email">                        
+                                <input type="text" class="form-control" id="name" placeholder="Digite seu nome">
+                                <div class="alert alert-dranger mt-1" id="name-error" >O nome inserido deve ter  de 1 à 50 caracteres</div>                                                             
+                                <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                                <div class="alert alert-dranger mt-1" id="email-error">Neste campo só pode ser inserido email</div>                        
                                  <input type="password" class="form-control" id="password" placeholder="Digite uma senha">
-                                
+                                 <div class="alert alert-dranger mt-1" id="password-error">A senha deve ter de 8 à 12 caracteres, Também deve conter pelo menos um caracter especial</div>                                
                             </form>
                             <a href="#" class="btn btn-primary mt-3 ">Enviar inscrição</a>
                         </div>
