@@ -91,7 +91,8 @@ body{
     font-size:20px;
 }
 .btn{
-    background-color:#F0ACF1;;
+    background-color:#F0ACF1;
+    text-align:center;
 }
 .card-body{
     background-color:rgb(255, 231, 244);
