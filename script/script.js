@@ -1,7 +1,8 @@
 const checkForm= {
     name: false,
     email:false,
-    password:false
+    fone:false,
+    mensagem:false
 }
 
 document.getElementById('name').addEventListener('input', function(e){
@@ -17,3 +18,20 @@ document.getElementById('name').addEventListener('input', function(e){
     }
 }
 );
+
+document.getElementById('email').addEventListener('input',function(e){
+    console.log(checkForm);
+    const email = e.target.value;
+    if(validEmail(email)){     
+        document.getElementById('email-error').style.diplay='block';   
+    }else{        
+        document.getElementById('email-error').style.display='none';
+    }
+
+});
+
+
+function validEmail(str){
+    let pattern = new RegExp('^[^@]+[^@]+\.[^@]+');
+    return !pattern.test(str);
+}

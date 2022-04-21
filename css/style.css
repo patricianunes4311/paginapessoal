@@ -152,3 +152,25 @@ body{
     background-color: #F0ACF1;
 }
 
+#sobreMim{
+    color:#ff6bbc;
+    text-align: center;
+    text-shadow: 3px 3px black;
+}
+.texto{
+    background-color: #fd73ff;
+    color:#ffffff;
+}
+
+.bibliografia{
+    background-color: #fd73ff;
+    color:#ffffff;
+}
+ 
+#titleDica{
+    font-family:'Updock', cursive;
+    font-size:30px;
+    font-weight:bold;
+    text-shadow: 3px 3px black;
+    
+}
