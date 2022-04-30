@@ -10,12 +10,10 @@ body{
 }
   .sidebar{
       background-color:rgb(255, 198, 255);
+      margin-top:80px;            
       
   }
-  #inscrição{
-    border:1px solid black;
-    padding:10px;
-  }
+ 
 
   #title{
     font-size: 30px;
@@ -147,6 +145,7 @@ body{
     background-color:#fc38ff;
     border-radius:4px;
     
+    
 }
 .card-body{
     background-color: #F0ACF1;
@@ -165,6 +164,7 @@ body{
 .bibliografia{
     background-color: #fd73ff;
     color:#ffffff;
+    top:350px;
 }
  
 #titleDica{
@@ -173,4 +173,41 @@ body{
     font-weight:bold;
     text-shadow: 3px 3px black;
     
+}
+
+.header{
+    position: fixed;
+    right:0px;    
+    left:0px;
+}
+
+a{
+    color:rgb(255, 255, 255);
+    background-color: #fc50ff;
+    display: block;       
+    
+}
+a:hover{
+    background-color:#fd73ff
+}
+
+ul{
+    list-style: none;
+}
+
+.main-content{
+    margin-top: 50px;
+}
+
+.formulário {
+    margin-top:70px;
+}
+
+nav{
+    position: fixed;
+    
+}
+
+.informações{
+   margin-top:80px;
 }
