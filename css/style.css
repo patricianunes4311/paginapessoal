@@ -184,15 +184,17 @@ body{
 a{
     color:rgb(255, 255, 255);
     background-color: #fc50ff;
-    display: block;       
+    display:inline;       
     
 }
 a:hover{
     background-color:#fd73ff
+    
 }
 
 ul{
     list-style: none;
+    display: inline;
 }
 
 .main-content{
@@ -211,3 +213,4 @@ nav{
 .informações{
    margin-top:80px;
 }
+
