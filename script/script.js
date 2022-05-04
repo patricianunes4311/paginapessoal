@@ -2,6 +2,7 @@ const checkForm = {
     name: false,
     email: false,
     fone: false,
+    mensagem:false
     
 }
 
@@ -43,10 +44,11 @@ document.getElementById('fone').addEventListener('input', function (e) {
     console.log(checkForm);
     const fone = e.target.value;
     if (validarNumero(fone)) {
-        document.getElementById('fone-error').style.display = "block";
+        document.getElementById('fone-error').style.display ="block";
         checkForm.fone = false;
     } else {
-        document.getElementById('fone-error').style.diplay = "none";
+        document.getElementById('fone-error').style.display ="none";
+        checkForm.fone = true;
     }
 
     
@@ -59,6 +61,19 @@ document.getElementById('fone').addEventListener('input', function (e) {
     enableButton();
 
 });
+document.getElementById('mensagem').addEventListener('input', function (e) {
+    const mensagem = e.target.value;
+    if (mensagem.length > 200 || mensagem.length < 5) {
+        console.log('A mensagem deve ter entre 5 e 200 caracteres');
+        document.getElementById('mensagem-error').style.display = "block";
+        checkForm.productDescription = false;
+    } else {
+        document.getElementById('mensagem-error').style.display = "none";
+        checkForm.mensagem = true;
+    }
+    enableButton();
+});
+
 
 
 

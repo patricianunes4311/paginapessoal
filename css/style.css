@@ -135,6 +135,9 @@ body{
 #fone-error{
     display:none;
 }
+#mensagem-error{
+    display:none;
+}
 .rodapé{
     text-align:center;
     background-color: #F0ACF1;
